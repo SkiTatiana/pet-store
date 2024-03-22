@@ -46,11 +46,11 @@
     	<artifactId>BR.02-JDBC</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
-    <dependency>
+<!--   <dependency>
     	<groupId>com.promineotech</groupId>
     	<artifactId>pet-parks</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
+    </dependency>-->
   </dependencies>
 
   <build>

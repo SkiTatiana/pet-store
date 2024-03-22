@@ -34,10 +34,10 @@ public class PetStoreData {
 		petStorePhone = petStore.getPetStorePhone();
 
 		for (Customer customer : petStore.getCustomers()) {
-			customers.add(new PetStoreCustomer(customer.getCustomerId(), customer.getCustomer()));
+			customers.add(new PetStoreCustomer(customer));
 		}
 		for (Employee employee : petStore.getEmployees()) {
-			employees.add(new PetStoreEmployee(employee.getEmployeeId()));
+			employees.add(new PetStoreEmployee(employee));
 		}
 	}
 }
